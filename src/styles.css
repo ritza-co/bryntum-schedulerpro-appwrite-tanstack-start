@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 @import "@bryntum/schedulerpro/fontawesome/css/fontawesome.css";
 @import "@bryntum/schedulerpro/fontawesome/css/solid.css";
 @import "@bryntum/schedulerpro/schedulerpro.css";
 @import "@bryntum/schedulerpro/svalbard-light.css";
 
+:root {
+  font-family: Poppins, "Open Sans", Helvetica, Arial, sans-serif; 
+}
+
 .home-page {
   display : flex;
   align-items : center;
   justify-content : center;
   height : 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 main {
@@ -165,11 +172,13 @@ summary::-webkit-details-marker {
 }
 
 .demo-app {
-    display        : flex;
-    flex-direction : column;
-    height         : 100%;
+  display        : flex;
+  flex-direction : column;
+  height         : 100%;
+  width          : 100%;
+  min-width      : 0;
 }
 
 .demo-toolbar {
-    display: flex;
+  display: flex;
 }

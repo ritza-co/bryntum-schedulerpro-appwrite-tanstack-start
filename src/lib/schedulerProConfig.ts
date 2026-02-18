@@ -69,7 +69,7 @@ export const schedulerProps : BryntumSchedulerProProps = {
     viewPreset        : 'dayAndWeek',
     eventStyle        : 'filled',
     tickSize          : 70,
-    subGridsConfigs   : {
+    subGridConfigs   : {
         locked : {
             width : '30em'
         }
