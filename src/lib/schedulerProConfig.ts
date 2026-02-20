@@ -69,11 +69,12 @@ export const schedulerProps : BryntumSchedulerProProps = {
     viewPreset        : 'dayAndWeek',
     eventStyle        : 'filled',
     tickSize          : 70,
-    subGridConfigs   : {
+    subGridConfigs    : {
         locked : {
             width : '30em'
         }
     },
+    resourceImagePath : 'users/',
     columns : [
         {
             type  : 'resourceInfo',
@@ -98,6 +99,7 @@ export const histogramProps : BryntumResourceHistogramProps = {
     scheduleTooltipFeature : false,
     showBarTip             : true,
     bbar                   : toolbarConfig,
+    resourceImagePath      : 'users/',
     columns                : [
         {
             type           : 'resourceInfo',

@@ -182,3 +182,9 @@ summary::-webkit-details-marker {
 .demo-toolbar {
   display: flex;
 }
+
+/* Fix Tailwind preflight overriding Bryntum resource avatar image */
+img.b-resource-image {
+  max-width : none;
+  height    : var(--b-avatar-size, 2.5em);
+}
